@@ -28,3 +28,21 @@ const fun= function(){
 console.log(typeof fun);
 console.log(typeof car);
 console.log(typeof fruits);
+// +------------------------+
+//Stack(Primitive) ,Heap(Non-Premitive)
+
+let myName="Divy pratap Singh"
+let anotherName=myName
+anotherName="Priyanshu"
+console.log(myName);
+console.log(anotherName);
+
+let user1={
+    Email:"user@gooogle.com",
+    upi:"user@ybl"
+}
+let userTwo=user1;
+userTwo.Email="user@yahoo.com"
+
+console.log(user1.Email);
+console.log(userTwo.Email);
