@@ -1,2 +1,2 @@
 # Learning-JavaScript
-Learning JavaScript As A begineer and also this is my  first repository of GitHub
+Learning JavaScript As A beginner and also this is my  first repository on GitHub
