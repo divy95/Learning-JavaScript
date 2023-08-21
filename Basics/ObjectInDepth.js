@@ -54,6 +54,7 @@ JsUser.greeting=function(){
 JsUser.greeting2=function(){
     console.log(`Hello js user,${this.name1}`);
 }
+// use backtick called string interpolation
  console.log(JsUser.greeting); //this will give a function return back
 console.log(JsUser.greeting());//this will give error that it is not a function
 // so for this first unfreeze the Object

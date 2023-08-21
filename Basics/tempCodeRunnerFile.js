@@ -1,1 +1,1 @@
-Object.freeze(JsUser)
+h
