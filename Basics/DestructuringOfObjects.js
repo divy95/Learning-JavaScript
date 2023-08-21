@@ -34,6 +34,8 @@ console.log(courseteacher);
     {},
     {}
 ]
+
+// JSON Format example 
 {
     "results": [
       {
