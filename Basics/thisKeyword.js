@@ -12,3 +12,9 @@ person.myName="sam"
 // console.log(person.welcomemsg());
 
  console.log(this)
+
+ function redmi(){
+    let username="divy"
+    console.log(this.username)
+ }
+ redmi();
