@@ -28,7 +28,7 @@ function addone(num){   //we can create function like this
 }
 
 
-addtwo(5);
+addtwo(5); //now this will  give error
 const addtwo= function(num){ //we can also create function like this 😀javascript variables are too powerfull 
     return num+2
 }
