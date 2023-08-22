@@ -13,8 +13,8 @@ person.myName="sam"
 
  console.log(this)
 
- function redmi(){
-    let username="divy"
-    console.log(this.username)
- }
- redmi();
+//  function redmi(){
+//     let username="divy"
+//     console.log(this.username) //this will only work inside object
+//  }
+//  redmi();
