@@ -25,7 +25,7 @@ for (let index = 0; index < array.length; index++) {
         
         if(index==5){
            console.log("Detected 5")
-           continue
+           continue  //condition skipped 1 time 
         }
         console.log(`value of i is ${index}`);
         
