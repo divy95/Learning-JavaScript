@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Learning</title>
+    <style>
+        .bg-black {
+            background-color: #212121;
+            color: #fff;
+        }
+        span{
+            color: red;
+        }
+
+<body class="bg-black">
+    <div>
+        <h1 id="title" class="heading">DOM Learning <span style="display: none;">Test text</span></h1>
+        <!-- <p>Output Using title.innertText:DOM Learning & title.textcontent:Dom Learning Text text && title.innerHTML:DOM Learning <span style="display: none;">Test text</span> </p> -->
+        <h2>Second Heading query</h2>
+        <h3>Third Heading query</h3>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p> Query Selector Used For real world Project(tag) <br><br>
+            1. <code> document.querySelector('h1')</code> using this you will get all the 1st h1 available on the page
+        </p>
+        <p> Query Selector Used For real world Project(id) <br><br>
+            2. <code> document.querySelector(#title)</code> using this you will get all the title id on the page
+        </p>
+        <p> Query Selector Used For real world Project(Class) <br><br>
+            3. <code> document.querySelector(#.heading)</code> using this you will get all the heading class on the page
+        </p>
+        <input type="password" name="" id="">
+        <p> Query Selector Used For real world Project(Input:password) <br><br>
+            4. <code> document.querySelector('input[type="password"]')</code> using this you will get input tag of type
+            password on the page
+        </p>
+        <ul>
+            <li class="list-item">One</li>
+            <li class="list-item">Two</li>
+            <li class="list-item">Three</li>
+            <li class="list-item">Four</li>
+        </ul>
+    </div>
+    <p>Manipulating ul with the help of DOM <br><br>
+        <code>const list=document.querySelector('ul')</code> <span>This will select the ul tag </span><br>
+        <code>const green=list.querySelector('li')</code> <span>this will select the 1st li<br></span>
+        <code>green.style.backgroundColor='green'</code><span>this will turn the first li background-color green</span>  <br>
+        <code>green.innerHTML=five</code> <span>& this will change the text one to five</span>
+    </p>
+    <p>QuerySelectorAll <br>
+    <code>const val=document.querySelectorAll('li')</code><span>this will select all the li as an array</span><br>
+    <code>val[0].style.color='green'</code><span> this will turn the first li color content red</span>
+    
+    
+    </p>
+</body>
+
+</html>
