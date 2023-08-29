@@ -10,7 +10,8 @@
             background-color: #212121;
             color: #fff;
         }
-        span{
+
+        span {
             color: red;
         }
     </style>
@@ -24,18 +25,22 @@
         <h3>Third Heading query</h3>
         <p>Lorem ipsum dolor sit amet.</p>
         <p> Query Selector Used For real world Project(tag) <br><br>
-            1. <code> document.querySelector('h1')</code> using this you will get all the 1st h1 available on the page
+            1. <code> document.querySelector('h1')</code> <span> using this you will get all the 1st h1 available on the
+                page</span>
         </p>
         <p> Query Selector Used For real world Project(id) <br><br>
-            2. <code> document.querySelector(#title)</code> using this you will get all the title id on the page
+            2. <code> document.querySelector(#title)</code><span> using this you will get all the title id on the
+                page</span>
         </p>
         <p> Query Selector Used For real world Project(Class) <br><br>
-            3. <code> document.querySelector(#.heading)</code> using this you will get all the heading class on the page
+            3. <code> document.querySelector(#.heading)</code> <span>using this you will get all the heading class on
+                the page</span>
         </p>
         <input type="password" name="" id="">
         <p> Query Selector Used For real world Project(Input:password) <br><br>
-            4. <code> document.querySelector('input[type="password"]')</code> using this you will get input tag of type
-            password on the page
+            4. <code> document.querySelector('input[type="password"]')</code><span>using this you will get input tag of
+                type
+                password on the page</span>
         </p>
         <ul>
             <li class="list-item">One</li>
@@ -47,15 +52,22 @@
     <p>Manipulating ul with the help of DOM <br><br>
         <code>const list=document.querySelector('ul')</code> <span>This will select the ul tag </span><br>
         <code>const green=list.querySelector('li')</code> <span>this will select the 1st li<br></span>
-        <code>green.style.backgroundColor='green'</code><span>this will turn the first li background-color green</span>  <br>
+        <code>green.style.backgroundColor='green'</code><span>this will turn the first li background-color green</span>
+        <br>
         <code>green.innerHTML=five</code> <span>& this will change the text one to five</span>
     </p>
     <p>QuerySelectorAll <br>
-    <code>const val=document.querySelectorAll('li')</code><span>this will select all the li as an array</span><br>
-    <code>val[0].style.color='green'</code><span> this will turn the first li color content red</span>
-    
-    
-    </p>
+        <code>const val=document.querySelectorAll('li')</code><span>this will select all the li as an array</span><br>
+        <code>val[0].style.color='green'</code><span> this will turn the first li color content red</span>
+</p>
+<p><code>const val=document.getElementsByClassName('list-item')</code><span>Getting Element using class Name</span></p><br>
+<span>we can not use Eachof directly to acceess the class element bcs this time it is not a array it is a collection to change it in to arrays we will use
+</span><br>
+<code>const valArr=Array.from(val)</code><span>this will change the HTML collection to An arry</span><br>
+<code>valArr.forEach((li)=>li.style.color='orange')</code><span>Changing the color of list using forEach loop</span>
+
+
+
 </body>
 
 </html>
